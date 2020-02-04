@@ -1,0 +1,24 @@
+:root {
+  --primary-color1: hsl(180, 66%, 49%);
+  --primary-color2: hsl(257, 27%, 26%);
+  --secondary-color: hsl(0, 87%, 67%);
+  --neutral-color1: hsl(0, 0%, 75%);
+  --neutral-color2: hsl(257, 7%, 63%);
+  --neutral-color3: hsl(255, 11%, 22%);
+  --neutral-color4: hsl(260, 8%, 14%);
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
