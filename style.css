@@ -166,7 +166,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background-image: url("/images/bg-shorten-mobile.svg");
+  background-image: url("images/bg-shorten-mobile.svg");
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -344,7 +344,7 @@ hr {
 /* Section Five */
 #section-five {
   background-color: var(--primary-color2);
-  background-image: url("/images/bg-boost-mobile.svg");
+  background-image: url("images/bg-boost-mobile.svg");
   background-repeat: no-repeat;
   background-size: 100%, 100%;
   background-position: right top;
@@ -497,7 +497,7 @@ hr {
   /* Section 2 */
   #section-two-inner {
     padding: 60px 50px 20px 50px;
-    background-image: url("/images/bg-shorten-desktop.svg");
+    background-image: url("images/bg-shorten-desktop.svg");
     background-size: 100%, 100%;
   }
   #addlink-div {
@@ -578,7 +578,7 @@ hr {
 
   /* Section five */
   #section-five {
-    background-image: url("/images/bg-boost-desktop.svg");
+    background-image: url("images/bg-boost-desktop.svg");
   }
 
   #section-five-inner {
