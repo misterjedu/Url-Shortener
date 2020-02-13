@@ -107,15 +107,23 @@ button:hover {
   border-radius: 15px;
 }
 
+/* Section One */
+/* #section-one {
+  margin-bottom: 40px;
+} */
+
 #section-one-full {
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
   justify-content: start;
+  margin-bottom: 40px;
 }
 
 #section-one {
-  padding: 50px 0;
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: -80px;
 }
 
 #section-one-right img {
@@ -147,6 +155,10 @@ button:hover {
 }
 
 /* Section Two */
+
+/* .section-two {
+  margin-bottom: -50px;
+} */
 
 #section-two-inner {
   background-color: var(--primary-color2);
@@ -195,12 +207,11 @@ button:hover {
 
 #section-three {
   background-color: var(--light-background);
-  margin-top: 50px;
 }
 #section-three-inner {
   display: flex;
   flex-direction: column;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .section-three-inner-cards {
@@ -227,7 +238,7 @@ button:hover {
   margin-top: -10px;
   margin-right: -10px;
   cursor: pointer;
-  height: 30px;
+  height: 25px;
 }
 
 .sec-three-card1 p {
@@ -265,11 +276,21 @@ hr {
 .sec-three-card2 input {
   display: none;
 }
+
 /* Section Four */
+
+#blue-line {
+  position: absolute;
+  border-left: 10px solid #2bd1d1;
+  height: 650px;
+  right: 50%;
+  top: 300px;
+}
 
 #section-four {
   background-color: var(--light-background);
   padding: 50px 0;
+  position: relative;
 }
 
 #sec4-inner-1 {
@@ -516,6 +537,16 @@ hr {
   }
 
   /* Section 4 */
+
+  #blue-line {
+    position: absolute;
+    border-left: 0;
+    border-top: 10px solid #2bd1d1;
+    width: 60%;
+    height: 40px;
+    left: 30%;
+    top: 62%;
+  }
 
   #sec4-inner-1 {
     padding: 0 250px;
